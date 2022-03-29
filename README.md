@@ -1,4 +1,8 @@
 # PSQL-and-Tomcat
+Si vas a ejecutar el rol desde una máquina Debian y no tienes ansible ni python3, ejecuta el script de este proyecto para instalar Ansible 2.11:
+```
+https://github.com/guguidfr/get-ansible-debian
+```
 Funciona correctamente en CentOS 7.
 ## Acerca del rol:
 Este rol creará:
