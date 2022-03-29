@@ -12,7 +12,7 @@ Este rol creará:
 ## Cómo usar el rol:
 - Clona el proyecto:
 ```
-git clone https://github.com/guguidfr/PSQL-and-Tomcat/tree/main
+git clone https://github.com/guguidfr/PSQL-and-Tomcat.git
 cd PSQL-and-Tomcat
 ```
 - Edita el archivo de hosts:
