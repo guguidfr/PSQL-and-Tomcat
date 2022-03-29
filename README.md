@@ -28,7 +28,7 @@ ui_admin_pass: Str0ngAdminP@ssw3rd          # Contraseña del administrador
 ```
 ansible-playbook start.yml
 ```
-### Créditos:
+# Créditos:
 El rol de creación del servidor de base de datos lo he creado yo mismo a partir de una guía en:
 ```
 https://computingforgeeks.com/how-to-manage-postgresql-database-with-ansible/
