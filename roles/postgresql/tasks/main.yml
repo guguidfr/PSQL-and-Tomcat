@@ -90,8 +90,8 @@
   
 - name: "Crear usuario postgres"
   user:
-   name: postgres
-     password: '$6$1dtVPRg7ZQ9Vzu6$bjQalfq08pGIUHf/amcJ.4IXYCh8QWOiIQ1jOZJ373o70Q8gFmvOyaR6ZnqkTAYrUGsSYLJEo/mMFUWKtF0lO/'
-     groups: vagrant
-     state: present
+    name: postgres
+    password: '$6$1dtVPRg7ZQ9Vzu6$bjQalfq08pGIUHf/amcJ.4IXYCh8QWOiIQ1jOZJ373o70Q8gFmvOyaR6ZnqkTAYrUGsSYLJEo/mMFUWKtF0lO/'
+    groups: vagrant
+    state: present
 # tasks file for postgresql
