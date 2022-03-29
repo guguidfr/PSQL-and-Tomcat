@@ -4,9 +4,9 @@
     state: present
 
 - name: "Instalar paquetes"
-   dnf:
-     name: "{{ item }}"
-     state: present
+  dnf:
+    name: "{{ item }}"
+    state: present
    with_items:
      - postgresql
      - postgresql-server
