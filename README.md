@@ -3,7 +3,8 @@ Si vas a ejecutar el rol desde una máquina Debian y no tienes ansible ni python
 ```
 https://github.com/guguidfr/get-ansible-debian
 ```
-Funciona correctamente en CentOS 7.
+- Funciona correctamente en CentOS 7.
+- Por defecto el usuario es "vagrant" así que está pensado para trabajar con máquinas virtuales de Vagrant.
 ## Acerca del rol:
 Este rol creará:
 - Un servidor de base de datos PostgreSQL que creará al usuario "postgres" (default psswd: postgres).
