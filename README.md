@@ -1,10 +1,10 @@
 # PSQL-and-Tomcat
 Funciona correctamente en CentOS 7.
-## Acerca del rol
+## Acerca del rol:
 Este rol creará:
 - Un servidor de base de datos PostgreSQL que creará al usuario "postgres" (default psswd: postgres).
 - Un servidor Tomcat accesible desde mediante interfaz web con el puerto 8080
-## Cómo usar el rol
+## Cómo usar el rol:
 - Clona el proyecto:
 ```
 git clone https://github.com/guguidfr/PSQL-and-Tomcat/tree/main
