@@ -1,4 +1,9 @@
- - name: "Instalar paquetes"
+- name: "Instalar dnf"
+  yum:
+    name: dnf
+    state: present
+
+- name: "Instalar paquetes"
    dnf:
      name: "{{ item }}"
      state: present
